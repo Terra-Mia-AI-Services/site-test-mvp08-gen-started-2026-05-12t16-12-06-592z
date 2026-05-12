@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://site-test-mvp08-gen-started-2026-05-12t16-12-06-592z.pages.dev/sitemap.xml

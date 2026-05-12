@@ -1,0 +1,125 @@
+baseURL = "https://site-test-mvp08-gen-started-2026-05-12t16-12-06-592z.pages.dev"
+languageCode = "it"
+defaultContentLanguage = "it"
+title = "TEST MVP08 gen-started 2026-05-12T16:12:06.592Z"
+
+[params]
+  site_name = "TEST MVP08 gen-started 2026-05-12T16:12:06.592Z"
+  description = "Piu prenotazioni, tono caldo e familiare"
+  slogan = ""
+  business_type = "ristorante"
+  contact_email = "mario@example.it"
+  contact_phone = "+393331234567"
+  whatsapp = ""
+  address = ""
+  city = ""
+  province = "FI"
+  cap = "50122"
+  instagram = ""
+  facebook = ""
+  tripadvisor = ""
+  google_business = ""
+  tiktok = ""
+  youtube = ""
+  linkedin = ""
+  opening_hours = ""
+  style = "classic"
+  layout = "hero_grande"
+  font = "moderno"
+  primary_color = "#2563eb"
+  accent_color = "#f59e0b"
+  package = "starter"
+
+  [params.page_slugs_by_lang.servizi]
+    en = "services"
+    it = "servizi"
+  [params.page_slugs_by_lang.contatti]
+    en = "contact"
+    it = "contatti"
+  [params.page_slugs_by_lang.homepage]
+    en = ""
+    it = ""
+  [params.page_slugs_by_lang.chi_siamo]
+    en = "about"
+    it = "chi-siamo"
+  [params.page_slugs_by_lang.cookie_privacy]
+    en = "privacy"
+    it = "privacy"
+
+[languages]
+  [languages.it]
+    contentDir = "content/it"
+    languageName = "Italiano"
+    languageCode = "it"
+    weight = 1
+    title = "TEST MVP08 gen-started 2026-05-12T16:12:06.592Z"
+  [languages.it.menu]
+    [[languages.it.menu.main]]
+      identifier = "home"
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.it.menu.main]]
+      identifier = "chi_siamo"
+      name = "Chi siamo"
+      url = "/chi-siamo/"
+      weight = 2
+    [[languages.it.menu.main]]
+      identifier = "servizi"
+      name = "Servizi"
+      url = "/servizi/"
+      weight = 3
+    [[languages.it.menu.main]]
+      identifier = "contatti"
+      name = "Contatti"
+      url = "/contatti/"
+      weight = 4
+    [[languages.it.menu.main]]
+      identifier = "cookie_privacy"
+      name = "Privacy"
+      url = "/privacy/"
+      weight = 5
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    languageCode = "en"
+    weight = 2
+    title = "TEST MVP08 gen-started 2026-05-12T16:12:06.592Z"
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "home"
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "chi_siamo"
+      name = "About"
+      url = "/about/"
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "servizi"
+      name = "Services"
+      url = "/services/"
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "contatti"
+      name = "Contact"
+      url = "/contact/"
+      weight = 4
+    [[languages.en.menu.main]]
+      identifier = "cookie_privacy"
+      name = "Privacy"
+      url = "/privacy/"
+      weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[minify]
+  disableHTML = true
+
+[build]
+  [build.buildStats]
+    enable = true
